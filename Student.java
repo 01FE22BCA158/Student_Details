@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Course {
     String name;
     String department;
 
@@ -11,12 +11,12 @@ public class Student {
 
     public static void main(String[] args) {
         Student s = new Student();
-        s.name = "Nihal Anil Somankoppa";
+        s.name = "Nihal AAnil Somankoppa";
         s.department = "BCA";
         s.displayName();
-        // System.out.println("THE COURCES REGISTERED ARES:");
-        // Course studentCourses = new Course();
-        // studentCourses.displayStudentMarks();
+        System.out.println("THE COURCES REGISTERED ARES:");
+        Course studentCourses = new Course();
+        studentCourses.displayStudentMarks();
 
     }
 }
